@@ -1,0 +1,45 @@
+-- create table students (
+--     id int,
+--     first_name varchar(150),
+--     last_name varchar(100),
+--     city varchar(100),
+--     age int,
+--     university varchar(120)
+-- );
+
+
+-- insert into students (id, first_name, last_name, city, age, university)
+-- values(1, 'Fuad', 'Rasulov', 'Baku', 24, 'BDU'),
+-- (2, 'Sebuhi', 'Rasulov', 'Baku', 24, 'BDU'),
+-- (3, 'Resul', 'Rasulov', 'Baku', 24, 'BDU'),
+-- (4, 'Mehman', 'Rasulov', 'Baku', 24, 'BDU'),
+-- (5, 'Almaz', 'Rasulov', 'Baku', 24, 'BDU'),
+-- ('Guldeste', 'Rasulov', 'Baku', 24, 'BDU'),
+-- (6, 'Fuad', 'Rasulov', 'Baku', 24, 'BDU'),
+
+
+
+-- select * from students
+
+-- select age from students
+
+-- select first_name, last_name from students
+
+-- select first_name from students
+-- where first_name like 'M%' or first_name like 'N%'
+
+-- select first_name from students 
+-- where not first_name='Fuad'
+
+-- select first_name from students
+-- where first_name like '_U%'
+
+
+-- update students 
+-- set city='Rome'
+-- where id=2 and id=3
+
+
+
+-- select * from students
+-- where age > 20
